@@ -1,0 +1,57 @@
+<?php
+
+/** REGRAS DE VARIAVEIS:
+ * Variaveis sempre começão com $
+ * Segundo caractere depois do $ pode ser "a, b, c, ...z" ou _ underline
+ * Aceita caractere [a-z], [A-Z], [0-9] e _
+ * Aceita caracteres ASCII
+ * Aceita á, õ, ç
+ * Case sensetive - de preferencia, camelCase
+ * Nomes especiais como $this não pode ser usado
+ */
+
+/** RECOMENDAÇÕES CLEAN CODE
+ * Nomes claros e de fácil identificação
+ * Evitar nomes muito curtos ou muito longos
+ * Defina um padrão e siga em todo o projeto
+ * Para variáveis de preferencia á letras minúsculas
+ * Para constantes de preferencia á letras maiúscula
+ * Use camelCase para métodos e atributos
+ * Use SNAKE_CASE para nomear constantes
+ */
+
+$nome = "Rafael";
+// $sobrenome = "Gomes Xavier";
+// const PAIS = "Brasil";
+// $idade = 27;
+// $peso = 90;
+// $casado = true;
+// const CURSO = "TI";
+
+
+// var_dump($nome, $sobrenome, PAIS, $peso, $casado, CURSO);
+
+echo "É verdade que seu nome é $nome?";
+
+/** TIPOS PRIMITIVOS ESCALARES
+ * "RJ" = string
+ * 3.1415 = float
+ * 17 = int
+ * true = bool
+ * "" = string
+ * -19 = int
+ * "false" = string
+ * 0x1A = int
+ * 3e2 = double
+ * "1024" = string
+ 
+ ** TIPO PRIMITIVO COMPOSTO
+ * Array
+ * Object
+  
+ ** TIPO PRIMITIVO ESPECIAL  
+ * null
+ * resorce
+ * callabe
+ * mixed
+ */
