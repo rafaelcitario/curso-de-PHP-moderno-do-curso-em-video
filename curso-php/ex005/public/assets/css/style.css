@@ -17,7 +17,7 @@ body {
 }
 
 container {
-  @apply flex flex-col justify-between shadow-2xl shadow-white;
+  @apply flex flex-col justify-between shadow-2xl shadow-white bg-black;
 }
 
 h1 {
@@ -25,13 +25,13 @@ h1 {
 }
 
 form {
-  @apply flex flex-col max-h-full min-h-max bg-slate-200 p-4 gap-y-8 rounded-md;
+  @apply flex flex-col min-w-full min-h-max bg-slate-200 p-4 gap-y-8 rounded-md;
 }
 
 label,
 input,
 button {
-  @apply text-3x1 px-2;
+  @apply cell:text-sm px-2;
 }
 
 label {
