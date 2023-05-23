@@ -2,14 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply m-0 p-0 box-border font-sans;
+}
+
 body {
   @apply bg-gray-900;
   @apply font-sans;
+  @apply flex;
+  @apply flex-col;
+  @apply w-screen;
+  @apply h-screen;
+  @apply text-gray-800;
+}
+
+container {
+  @apply flex flex-col justify-between shadow-2xl shadow-white;
+}
+
+h1 {
+  @apply text-3xl font-semibold text-white;
+}
+
+form {
+  @apply flex flex-col max-h-full min-h-max bg-slate-200 p-4 gap-y-8 rounded-md;
+}
+
+label,
+input,
+button {
+  @apply text-3x1 px-2;
+}
+
+label {
+  @apply font-black;
 }
 
 input {
   @apply font-bold;
   @apply text-gray-700;
+  @apply w-2/5 h-12 rounded-md;
 }
 button {
   @apply bg-green-600;
